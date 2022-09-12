@@ -207,16 +207,21 @@ a, a:hover{
 .
 /* feature section end */
 
-/*event section starts*/
 .event{
 	width: 100%;
-	padding: 0px 0px; 
-	border: 1px solid #000;
-	box-shadow: 10px 10px 5px #d9d9d9;
+	padding: 0px 0px;  
+}
+.event .container{
+	padding: 20px 0px;
+	border: 1px solid #d8d8d8;
+	box-shadow: 10px 20px 15px #dcdcdc;
 }
 .event img{
 	width: 614px;
     height: 395px;
+}
+.event .title{
+	padding: 38px 32px;
 }
 /*event section end*/
 
