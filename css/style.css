@@ -1,0 +1,312 @@
+*{
+	padding: 0px;
+	margin: 0px; 
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.title{
+	width: 100%;
+	padding: 20px 0px;
+}
+.title h4{
+	    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+
+}
+.title h1{
+	font-size: 48px;
+	line-height: 58px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: #3d2514;
+	text-transform: uppercase;
+	font-family:'Alfa Slab One', cursive; 
+}
+.title p{
+	font-weight: 400;
+	color: #3d2514;
+	font-family: 'Montserrat', sans-serif;
+}
+.header{
+	width: 100%;
+	background: url("../images/new.png") center top no-repeat;
+	background-size: cover;
+}
+.header p{
+	padding-left: 20px;
+	padding-top: 22px;
+}
+.header img{
+	padding-top: 16px;
+}
+.header .navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding-top: 45px;
+ }
+ .header .navbar-brand img{
+ 	padding-right: 795px;
+    padding-top: 18px;
+ }
+.header .navbar-nav .nav-item .nav-link{
+	font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #3d2514;
+    text-transform: capitalize;
+    margin-left: 25px;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+.header .navbar-nav .nav-item .nav-link:hover, .header .navbar-nav .nav-item .nav-link:focus{
+	color: #c90a1d;
+	transition: 1s;
+}
+.header .navbar-nav .nav-link.active{
+	color: #c90a1d;
+}
+.up{
+	display: flex;
+	position: absolute;
+	top: 0;
+	right: 112px;
+}
+.nav{
+	position: relative;
+	right: 0;
+}
+.banner{
+	width: 100%;
+	padding: 170px 0px;
+}
+
+.inner-banner{
+	width: 100%;
+	padding: 30px 0px 40px;
+}
+.inner-banner h6{
+	display: block;
+    border: 3px dashed #3d2514;
+    padding: 1px 0px;
+    margin-right: 286px;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.inner-banner h1{
+	display: block;
+	font-size: 98px;
+    font-weight: 400;
+    line-height: 103px;
+    letter-spacing: 2px;
+    text-shadow: 1px 2px #fff;
+    color: #3d2514;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
+}
+.inner-banner h2{
+	display: block;
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 57px;
+    margin-left: 8px;
+    letter-spacing: 2px;
+    text-shadow: 1px 2px #fff;
+    color: #3d2514;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
+}
+.about-short{
+	width: 100%;
+	padding: 80px 0px; 
+}
+.about-short .try1{
+	width: 100%;
+    padding: 172px 0px;
+    background: url(../images/b1.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.about-short .try2{
+	width: 100%;
+    padding: 60px 0px;
+    margin-left: -83px;
+    margin-bottom: 38px;
+    background: url(../images/b2.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.about-short .try2 .content{
+
+}
+.about-short .try3{
+	width: 100%;
+    padding: 50px 0px;
+    margin-left: -83px;
+    background: url(../images/b3.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.about-short p{
+	color: white;
+	padding-left: 20px;
+	
+}
+.about-short h2{
+	color: white;
+}
+/* feature section start */
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+}
+.feature .title{
+	text-align: center;
+}
+.feature .title h4{
+	background-color: #ffc045;
+    margin: 1px 533px;
+}
+.feature .inner-feature{
+	width: 100%;
+	padding: 40px 50px;
+	text-align: center;
+}
+.feature .inner-feature img{
+	width: 300px;
+    height: 210px;
+    margin: 0px 4px;
+}
+.feature .inner-feature .card{
+	border: none;
+}
+.feature .inner-feature .card .card-body .btn{
+ border-radius: 0px;
+}
+.
+/* feature section end */
+
+/*event section starts*/
+.event{
+	width: 100%;
+	padding: 0px 0px; 
+	border: 1px solid #000;
+	box-shadow: 10px 10px 5px #d9d9d9;
+}
+.event img{
+	width: 614px;
+    height: 395px;
+}
+/*event section end*/
+
+/*reservation section starts*/
+.reservation{
+	
+	
+	
+}
+.reservation{
+	width: 100%;
+    background-image: url(../images/book.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding: 157px 0px;
+    background-size: cover;
+}
+.reservation .title{
+	text-align: center;
+	padding: 0px 0px 40px;
+}
+.contact-form{
+	width: 100%;
+	margin-bottom: 80px;
+}
+.contact-form .form-control{
+	padding: 17px 12px;
+	border-radius: 2px;
+	font-size: 14px;
+	text-transform: uppercase;
+	background: transparent;
+	color: #999;
+	border: 1px solid #999;
+}
+.reservation-form .form-control:focus{
+	background: transparent;
+	border: 1px solid #999;
+	/*box-shadow: 0 0 0 0rem rgb(13 110 253/25%); */
+}
+.reservation-form .submit{
+	width: 100%;
+	text-align: left;
+}
+.reservation-form .submit .btn-primary{
+	padding: 15px 30px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #fff;
+	background: #008ed6;
+	border: 1px solid #0086d6;
+	border-radius: 2px;
+	transition: 1s;
+} 
+.reservation-form .submit .btn-primary:hover,
+.reservation-form .submit .btn-primary:focus{
+	color: #008ed6;
+	background: transparent;
+	border:1px solid #008ed6;
+}
+
+/*reservation section end*/
+
+/* footer section starts*/
+.footer{
+	width: 100%;
+	background-image: url("images/l.png") center top no-repeat;
+	background-size: cover;
+}
+.footer{
+	  width: 100%;
+	  background-image: url("../images/l.png");
+      background-position: right bottom, left top;
+      background-repeat: no-repeat, repeat;
+      padding: 15px;
+      background-size: cover;
+}
+.footer p{
+	color: #fff;
+	
+}
+.footer .social-icons li{
+	list-style: none;
+	display: inline-block;
+	margin-top: 15px;
+	color: #fff;
+}
+/* footer section end */
+
+
+
+
