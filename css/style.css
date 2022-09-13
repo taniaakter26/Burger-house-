@@ -218,9 +218,14 @@ a, a:hover{
 	border: none;
 }
 .feature .inner-feature .card .card-body .btn{
- border-radius: 0px;
+    border-radius: 0px;
+    background-color: #bf2222;
+    width: 157px;
+    height: 44px;
 }
-.
+.feature .inner-feature .card .card-body .btn p{
+font-weight: 700;
+}
 /* feature section end */
 
 /*event section starts*/
@@ -252,7 +257,7 @@ a, a:hover{
     
 }
 .event .owl-theme .owl-dots .owl-dot.active span, .event .owl-theme .owl-dots .owl-dot:hover span{
-	background: #ebe713;
+	background: #ffc045;
 }
 
 /*event section end*/
@@ -278,6 +283,10 @@ a, a:hover{
 .contact-form{
 	width: 100%;
 	margin-bottom: 80px;
+}
+.contact-form .btn{
+	border-radius: 0px;
+    background-color: #bf2222;
 }
 .contact-form .form-control{
 	padding: 17px 12px;
