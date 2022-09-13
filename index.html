@@ -5,8 +5,13 @@
 		<title>Burger House</title>
 		<!-- style.css linking here -->
 		<link rel="stylesheet" href="css/style.css">
+		<!-- font-awesome css linking here -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 		<!-- bootstrap.min.css linking here -->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+		<!-- jQuery plugin linking here -->
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
 		<!-- google font family linking here -->
 		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
 		<!-- burger font  -->
@@ -241,28 +246,34 @@
 					<div class="row">
 						<div class="col-lg-8">
 							<div class="inner-footer">
-								<img src="images/flogo.png" alt="">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus- <br>pendisse ultrices gravida. Risus commodo viver ra maecenas accumsan <br> lacus vel facilisis. </p>
+								<img src="images/flogo.png" alt=""> <br>	
+								<p> <br>	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus- <br>pendisse ultrices gravida. Risus commodo viver ra maecenas accumsan <br> lacus vel facilisis. </p>
 							</div>
 						</div>
 						<div class="col-lg-4">
 							<div class="inner-footer">
-								<p>Main road, Building name,Country</p>
-								<p>xyz@gmail.com</p>
+								<ul class="location">
+									<li><img src="images/location.png" alt=""> &nbsp; Main road, Building name,Country</li>			
+									<li><img src="images/email.png" alt=""> &nbsp; info@companyname.com</li>
+								</ul>
 							</div>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-lg-3">
-							<p>&copy; Company Name 2020. All rights reserved.</p>
+						<div class="col-lg-5">
+							<div class="copyright">	
+								<p>&copy; Company Name 2020. All rights reserved.</p>
+							</div>
+							
 						</div>
-						<div class="col-lg-6">
+						<div class="col-lg-3">
 							&nbsp;
 						</div>
-						<div class="col-lg-3">
-							<ul class="social-icons">
+						<div class="col-lg-4">
+							<div class="icon">
+								<ul class="social-icons">
 								<li>
-									<a href="https://www.instagram.com/" title="instagram">
+									<a href="https://www.instagram.com/" title="instagram" target="_blank">
 										<i class="fa fa-instagram" ></i>
 									</a>
 								</li>
@@ -278,11 +289,13 @@
 								</li>
 								
 								<li>
-									<a href="https://www.linkedin.com/jobs" title="Linkedin" target="_blank">
-										<i class="fa fa-linkedin" ></i>
+									<a href="https://www.whatsapp.com/" title="Whatsapp" target="_blank">
+										<i class="fa fa-whatsapp" ></i>
 									</a>
 								</li>
 							</ul>
+							</div>
+							
 						</div>
 					</div>
 				</div>
@@ -293,5 +306,28 @@
 		
 		<!-- bootstrap.bundle.min.js linking here -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+		<!-- owl.carousel.min.js plguin js linking here -->
+			<script src="js/owl.carousel.min.js"></script>
+			<!-- jQuery setup -->
+			<script>
+			$('.owl-carousel').owlCarousel({
+			loop:true,
+			margin:33,
+			nav:false,
+			autoplay:true,
+			autoplayTimeout:5000,
+			responsive:{
+			0:{
+			items:1
+			},
+			600:{
+			items:2
+			},
+			1000:{
+			items:2
+			}
+			}
+			})
+			</script>
 	</body>
 </html>
