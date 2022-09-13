@@ -18,9 +18,9 @@ a, a:hover{
 	padding: 20px 0px;
 }
 .title h4{
-	    font-size: 22px;
-    line-height: 32px;
-    font-weight: 400;
+	font-size: 26px;
+    line-height: 36px;
+    font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #3d2514;
@@ -137,7 +137,7 @@ a, a:hover{
 }
 .about-short .try1{
 	width: 100%;
-    padding: 172px 0px;
+    height: 400px;
     background: url(../images/b1.png);
     background-position: center top;
     background-repeat: no-repeat;
@@ -146,7 +146,7 @@ a, a:hover{
 }
 .about-short .try2{
 	width: 100%;
-    padding: 60px 0px;
+    height: 185px;
     margin-left: -83px;
     margin-bottom: 38px;
     background: url(../images/b2.png);
@@ -160,7 +160,7 @@ a, a:hover{
 }
 .about-short .try3{
 	width: 100%;
-    padding: 50px 0px;
+	height: 177px;
     margin-left: -83px;
     background: url(../images/b3.png);
     background-position: center top;
@@ -170,15 +170,31 @@ a, a:hover{
 }
 .about-short p{
 	color: white;
-	padding-left: 20px;
+    padding-left: 10px;
+    padding-top: 17px;
+    font-size: 21px;
+    line-height: 31px;
+    text-transform: uppercase;
+    font-weight: 500;
 	
 }
 .about-short h2{
 	color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    padding-left: 9px;
+    margin-top: -8px;
+}
 }
 /* feature section start */
 .feature{
 	width: 100%;
+	padding: 80px 0px;
+
+}
+.feature .container{
 	padding: 80px 0px;
 }
 .feature .title{
@@ -186,7 +202,7 @@ a, a:hover{
 }
 .feature .title h4{
 	background-color: #ffc045;
-    margin: 1px 533px;
+    margin: 9px 538px;
 }
 .feature .inner-feature{
 	width: 100%;
@@ -224,6 +240,21 @@ a, a:hover{
 .event .title{
 	padding: 38px 32px;
 }
+.event .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 68px;
+    margin-right: 507px;
+}
+
+.event .owl-theme .owl-dots .owl-dot span{
+    width:15px;
+    height:15px;
+    margin:5px 7px;
+    
+}
+.event .owl-theme .owl-dots .owl-dot.active span, .event .owl-theme .owl-dots .owl-dot:hover span{
+	background: #ebe713;
+}
+
 /*event section end*/
 
 /*reservation section starts*/
@@ -288,17 +319,13 @@ a, a:hover{
 /*reservation section end*/
 
 /* footer section starts*/
-.footer{
-	width: 100%;
-	background-image: url("images/l.png") center top no-repeat;
-	background-size: cover;
-}
+
 .footer{
 	  width: 100%;
-	  background-image: url("../images/l.png");
-      background-position: right bottom, left top;
-      background-repeat: no-repeat, repeat;
-      padding: 40px 0px;
+	  padding: 40px 0px;
+	  background: url("../images/l.png");
+      background-position: right bottom;
+      background-repeat: no-repeat;
       background-size: cover;
 }
 .footer .inner-footer{
@@ -363,7 +390,5 @@ a, a:hover{
 }
 
 /* footer section end */
-
-
 
 
