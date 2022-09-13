@@ -298,19 +298,70 @@ a, a:hover{
 	  background-image: url("../images/l.png");
       background-position: right bottom, left top;
       background-repeat: no-repeat, repeat;
-      padding: 15px;
+      padding: 40px 0px;
       background-size: cover;
 }
-.footer p{
+.footer .inner-footer{
+	padding: 0px 0px;
+}
+.footer .inner-footer img{
+}
+.footer .inner-footer p{
 	color: #fff;
+	padding-top: 22px;
 	
 }
-.footer .social-icons li{
+.footer .inner-footer .location{
+	padding-top: 161px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.footer .inner-footer .location li{
+	color: #fff;
+    list-style: none;
+    padding-bottom: 7px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.footer .inner-footer .location img{
+	    width: 23px;
+}
+.footer .copyright p{
+	    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-top: 90px;
+}
+.footer .icon{
+
+}
+.icon .social-icons{
+	padding-top: 76px;
+    padding-left: 280px;
+    letter-spacing: 5px;
+}
+.icon .social-icons li{
 	list-style: none;
 	display: inline-block;
 	margin-top: 15px;
-	color: #fff;
+	color: #000;
+	background-color: white;
+	border-radius: 100%;
+
 }
+.icon .social-icons i{
+ color: #000;
+ padding: 4px;
+ text-align: center;
+}
+.icon .social-icons i:hover{
+	color: blue;
+}
+
 /* footer section end */
 
 
